@@ -1,0 +1,31 @@
+{
+  "name": "codiliateur/laravel-dto",
+  "license": "MIT",
+  "description": "Laravel data transfer objects",
+  "autoload": {
+    "psr-4": {
+      "Codiliateur\\LaravelDto\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AnourValar\\LaravelAtom\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ilia Khondozhko",
+      "email": "ilia.khondozhko@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "laravel/framework": "^8.0|^9.0|^10.0|^11.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.3",
+    "phpstan/phpstan": "^1.11",
+    "orchestra/testbench": "^9.3",
+    "friendsofphp/php-cs-fixer": "^3.62"
+  }
+}
